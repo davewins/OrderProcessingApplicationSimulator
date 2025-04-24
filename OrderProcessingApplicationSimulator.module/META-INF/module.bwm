@@ -8,6 +8,15 @@
   <sca:property xmi:id="_wzv8QCEaEfChLJHrNRMUAQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_wzy_kCEaEfChLJHrNRMUAQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:component xmi:id="_vnZd4CEaEfChLJHrNRMUAQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_vnZd4SEaEfChLJHrNRMUAQ" processName="orderprocessingapplicationsimulator.module.Process"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_vnZd4SEaEfChLJHrNRMUAQ" processName="orderprocessingapplicationsimulator.module.QueryCustomerOrders"/>
+  </sca:component>
+  <sca:component xmi:id="_qj1OoCEgEfCFftWKGJ-YOQ" name="ComponentGetOrderStatus" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_qj1OoSEgEfCFftWKGJ-YOQ" processName="orderprocessingapplicationsimulator.module.GetOrderStatus"/>
+  </sca:component>
+  <sca:component xmi:id="_JbvW8CEhEfCFftWKGJ-YOQ" name="ComponentNewOrder" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_JbvW8SEhEfCFftWKGJ-YOQ" processName="orderprocessingapplicationsimulator.module.NewOrder"/>
+  </sca:component>
+  <sca:component xmi:id="_l05k4CEhEfCFftWKGJ-YOQ" name="ComponentUpdateOrderStatus" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_l05k4SEhEfCFftWKGJ-YOQ" processName="orderprocessingapplicationsimulator.module.UpdateOrderStatus"/>
   </sca:component>
 </sca:composite>

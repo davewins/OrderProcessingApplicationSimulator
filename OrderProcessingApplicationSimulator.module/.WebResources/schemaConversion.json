@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/OrderProcessingApplicationSimulator.module/Service Descriptors/OrdersAPI.json",
+    "conversionType": "generated",
+    "xsdSchemaTargetNamespace": "/api/T1745510457589Converted/JsonSchema"
+}]}
