@@ -7,6 +7,8 @@
   <sca:property xmi:id="_wzs48CEaEfChLJHrNRMUAQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_wzv8QCEaEfChLJHrNRMUAQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_wzy_kCEaEfChLJHrNRMUAQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_3TwTQCHjEfCI58Vy7YIFgQ" name="APIHost" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_413mQCHjEfCI58Vy7YIFgQ" name="APIPort" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_vnZd4CEaEfChLJHrNRMUAQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_vnZd4SEaEfChLJHrNRMUAQ" processName="orderprocessingapplicationsimulator.module.QueryCustomerOrders"/>
   </sca:component>
