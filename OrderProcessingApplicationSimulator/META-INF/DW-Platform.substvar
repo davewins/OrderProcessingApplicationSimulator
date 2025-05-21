@@ -75,12 +75,13 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//OrderProcessingApplicationSimulator.module//APIHost</name>
-			<value>localhost</value>
+			<value>orderprocessing.dw-dp.svc.cluster.local</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>orderprocessing.dw-dp.svc.cluster.local</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>APIPort</name>
