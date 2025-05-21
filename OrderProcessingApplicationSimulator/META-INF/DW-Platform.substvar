@@ -66,22 +66,23 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//OrderProcessingApplicationSimulator.module//APIPort</name>
-			<value>8080</value>
+			<value>%%APIPort%%</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>%%APIPort%%</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//OrderProcessingApplicationSimulator.module//APIHost</name>
-			<value>orderprocessing.dw-dp.svc.cluster.local</value>
+			<value>%%APIHost%%</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>orderprocessing.dw-dp.svc.cluster.local</lookupValue>
+			<lookupValue>%%APIHost%%</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>APIPort</name>

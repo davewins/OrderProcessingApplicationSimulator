@@ -70,9 +70,9 @@
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%APIPort%%</lookupValue>
+			<lookupValue>8080</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//OrderProcessingApplicationSimulator.module//APIHost</name>
@@ -80,9 +80,9 @@
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%APIHost%%</lookupValue>
+			<lookupValue>localhost</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>APIPort</name>
